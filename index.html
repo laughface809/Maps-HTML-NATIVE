@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="./js/maps-style.js"></script>
+    <script type="module" src="./js/index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   
+<body>
+  <div class="sidebar">
+      <ul class="nav-links">
+        <li class="menu-icon">
+            <a href="#" class="block-icon">
+              <i class='bx bx-grid-alt' ></i>
+              <span class="links_name">
+                <img src="./media/browse.png" alt="" />
+              </span>
+            </a>
+        </li>
+        <li class="menu-icon">
+          <a href="#" class="block-icon">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">
+              <img src="./media/suggest.png" alt="" />
+            </span>
+          </a>
+        </li>
+        <li class="menu-icon">
+          <a href="#" class="block-icon">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">
+              <img src="./media/videos.png" alt="" />
+            </span>
+          </a>
+        </li>
+        <li class="menu-icon">
+          <a href="#" class="block-icon">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">
+              <img src="./media/blog.png" alt="" />
+            </span>
+          </a>
+        </li>
+        <li class="menu-icon">
+          <a href="#" class="block-icon">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">
+              <img src="./media/about.png" alt="" />
+            </span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  
+  <div class="sidebar second">
+    <ul class="nav-links">
+      <li class="first-box">
+          <a href="#" class="menu-sidebar-flex">
+            <span class="links_name">Filter by favorite</span>
+            <img src="./media/dropdown.svg" alt="" class="dropdown-icon" />
+          </a>
+        </li>
+      <li>
+        <a href="#" class="active menu-sidebar-flex">
+          <span class="links_name">Merlion</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="menu-sidebar-flex">
+          <span class="links_name">Marina Bay Sands</span>
+          <img src="./media/dropdown.svg" alt="" class="dropdown-icon" />
+        </a>
+      </li>
+      <li>
+        <a href="#" class="menu-sidebar-flex">
+          <span class="links_name">Garden by the Bay</span>
+          <img src="./media/dropdown.svg" alt="" class="dropdown-icon" />
+        </a>
+      </li>
+      <li>
+        <a href="#" class="menu-sidebar-flex">
+          <span class="links_name">China town</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="menu-sidebar-flex">
+          <span class="links_name">Asian Civilisations Museum</span>
+          <img src="./media/dropdown.svg" alt="" class="dropdown-icon" />
+        </a>
+      </li>
+      <li>
+        <a href="#" class="menu-sidebar-flex">
+          <span class="links_name">Clarke Quay</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="menu-sidebar-flex">
+          <span class="links_name">Fort Canning Park</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="menu-sidebar-flex">
+          <span class="links_name">Singapore Flyer</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="menu-sidebar-flex">
+          <span class="links_name">Orchard Road</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <span class="dashboard">TOP-RATED TOURIST ATTRACTIONS IN SINGAPORE</span>
+      </div>
+    </nav>
+
+    <div id="map" class="home-content">
+    </div>
+  </section>
+
+  <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer
+    ></script>
+
+</body>
+</html>
+
